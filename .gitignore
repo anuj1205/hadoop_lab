@@ -1,0 +1,76 @@
+# Hadoop Files
+hadoop-3.3.6/
+
+# Build Files
+classes/
+*.class
+*.jar
+
+# Hadoop Outputs
+output/
+logoutput/
+weatheroutput/
+
+# Logs
+*.log
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# JVM Crash Logs
+hs_err_pid*
+replay_pid*# =========================
+# Hadoop Files
+# =========================
+hadoop-3.3.6/
+
+# =========================
+# Build & Compilation Files
+# =========================
+classes/
+*.class
+*.jar
+
+# =========================
+# Hadoop Output Directories
+# =========================
+output/
+logoutput/
+weatheroutput/
+
+# =========================
+# Java Package Files
+# =========================
+*.war
+*.nar
+*.ear
+
+# =========================
+# Compressed Files
+# =========================
+*.zip
+*.tar.gz
+*.rar
+
+# =========================
+# Log Files
+# =========================
+*.log
+
+# =========================
+# BlueJ Files
+# =========================
+*.ctxt
+
+# =========================
+# J2ME Temporary Files
+# =========================
+.mtj.tmp/
+
+# =========================
+# JVM Crash Logs
+# =========================
+hs_err_pid*
+replay_pid*

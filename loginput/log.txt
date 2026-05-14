@@ -1,0 +1,8 @@
+INFO System Started
+ERROR Disk Failure
+INFO User Login
+WARNING Battery Low
+ERROR RAM Failure
+INFO Logout Success
+WARNING CPU High
+ERROR Network Failure
