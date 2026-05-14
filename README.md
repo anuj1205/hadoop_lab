@@ -85,13 +85,6 @@ hadoop version
 
 # WordCount
 
-## Clean
-
-```bash
-rm -rf classes output
-rm -f wordcount.jar
-```
-
 ## Compile & Run
 
 ```bash
@@ -106,16 +99,16 @@ hadoop jar wordcount.jar WordCount input output
 cat output/part-r-00000
 ```
 
----
-
-# LogProcessor
-
 ## Clean
 
 ```bash
-rm -rf classes logoutput
-rm -f logprocessor.jar
+rm -rf classes output
+rm -f wordcount.jar
 ```
+
+---
+
+# LogProcessor
 
 ## Compile & Run
 
@@ -131,16 +124,16 @@ hadoop jar logprocessor.jar LogProcessor loginput logoutput
 cat logoutput/part-r-00000
 ```
 
----
-
-# WeatherAnalysis
-
 ## Clean
 
 ```bash
-rm -rf classes weatheroutput
-rm -f weather.jar
+rm -rf classes logoutput
+rm -f logprocessor.jar
 ```
+
+---
+
+# WeatherAnalysis
 
 ## Compile & Run
 
@@ -155,6 +148,15 @@ hadoop jar weather.jar WeatherAnalysis weatherinput weatheroutput
 
 cat weatheroutput/part-r-00000
 ```
+
+## Clean
+
+```bash
+rm -rf classes weatheroutput
+rm -f weather.jar
+```
+
+---
 
 # Important Notes
 
